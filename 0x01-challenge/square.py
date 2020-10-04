@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """ Square module """
+
+
 class Square():
     """Represent a Square class"""
     width = 0
@@ -20,7 +22,9 @@ class Square():
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
+        """repr method of the square"""
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
     """ create a square"""
